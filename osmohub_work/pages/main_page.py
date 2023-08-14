@@ -9,9 +9,7 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class MainPage(BasePage):
-    # url_dev = DataTest.url_dev
-    # url_prod = DataTest.url_prod
-    # url_vert = "https://158.160.63.248"
+
 
     def __init__(self, driver, url=DataTest.url):
         super().__init__(driver, url)
