@@ -10,9 +10,7 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class CatalogPage(BasePage):
-    # url_dev = "https://dev.stroycode.ru/catalog"
-    # url_prod = "https://stroycode.ru/catalog"
-    # url_vert = "https://158.160.63.248/catalog"
+
 
     def __init__(self, driver, url=DataTest.url+'/catalog'):
         super().__init__(driver, url)
