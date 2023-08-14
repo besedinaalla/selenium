@@ -11,9 +11,6 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class CartPage(BasePage):
-    # url_dev = "https://dev.stroycode.ru/catalog/cart"
-    # url_prod = "https://stroycode.ru/catalog/cart"
-    # url_vert = "https://158.160.63.248/cart"
 
     def __init__(self, driver, url=DataTest.url+'/cart'):
         super().__init__(driver, url)
