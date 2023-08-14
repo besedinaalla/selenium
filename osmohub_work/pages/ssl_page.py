@@ -4,7 +4,7 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class SslPage(BasePage):
-    # url_vert = "https://158.160.63.248/login"
+ 
 
     def __init__(self, driver, url=DataTest.url):
         super().__init__(driver, url)
