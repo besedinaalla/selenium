@@ -9,9 +9,7 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class LoginPage(BasePage):
-    # url_dev = "https://dev.stroycode.ru/login"
-    # url_prod = "https://stroycode.ru/login"
-    # url_vert = "https://158.160.63.248/login"
+
 
     def __init__(self, driver, url=DataTest.url+'/login'):
         super().__init__(driver, url)
