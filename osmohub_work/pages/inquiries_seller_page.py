@@ -12,9 +12,7 @@ from osmohub_auto.osmohub_work.tests.data_tests import DataTest
 
 
 class InquirySellerPage(BasePage):
-    # url_dev = "https://dev.stroycode.ru/inquiries?page=1&perPage=10"
-    # url_prod = "https://stroycode.ru/inquiries?page=1&perPage=10"
-    # url_vert = "https://158.160.63.248/inquiries?page=1&perPage=10"
+
 
     def __init__(self, driver, url=DataTest.url+'/inquiries?page=1&perPage=10'):
         super().__init__(driver, url)
