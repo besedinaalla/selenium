@@ -6,14 +6,7 @@ from osmohub_auto.osmohub_work.pages.catalog_page import CatalogPage
 from osmohub_auto.osmohub_work.pages.login_page import LoginPage
 from osmohub_auto.osmohub_work.pages.ssl_page import SslPage
 
-login_correct_buyer = "Test1CD2@remkis.ru"
-password_correct_buyer = 'dSw[`r8d1d]"`#;'
-login_incorrect = "Test1@remkis.ru"
-password_incorrect = 'dSw[`r8d1d]"`#;123'
-login_not_email = "kjuyy654!#$!"
 
-login_correct_dev = "test_buyer@osmocode.ru"
-password_correct_dev = 'qwerty1234'
 
 
 @pytest.mark.usefixtures("driver_init")
